@@ -16,4 +16,11 @@ class Node<T> {
     init(value: T) {
         self.value = value
     }
+
+}
+
+extension Node: CustomStringConvertible {
+    public var description: String {
+        return "{Node: \(String(describing: value))}"
+    }
 }
