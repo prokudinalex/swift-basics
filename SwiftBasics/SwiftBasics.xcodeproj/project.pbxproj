@@ -14,6 +14,10 @@
 		29B6413322C3D7AC0095F7B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29B6413122C3D7AC0095F7B1 /* LaunchScreen.storyboard */; };
 		29B6414922C3D7E10095F7B1 /* BoolObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B6414822C3D7E10095F7B1 /* BoolObject.swift */; };
 		29B6414B22C3D8C90095F7B1 /* BoolObjectTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B6414A22C3D8C90095F7B1 /* BoolObjectTest.swift */; };
+		29B6415022C5127D0095F7B1 /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B6414F22C5127D0095F7B1 /* LinkedList.swift */; };
+		29B6415222C517530095F7B1 /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B6415122C517530095F7B1 /* Node.swift */; };
+		29B6415422C519B20095F7B1 /* List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B6415322C519B20095F7B1 /* List.swift */; };
+		29B6415822C51C390095F7B1 /* LinkedListTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B6415722C51C390095F7B1 /* LinkedListTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +42,10 @@
 		29B6413F22C3D7AC0095F7B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		29B6414822C3D7E10095F7B1 /* BoolObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoolObject.swift; sourceTree = "<group>"; };
 		29B6414A22C3D8C90095F7B1 /* BoolObjectTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoolObjectTest.swift; sourceTree = "<group>"; };
+		29B6414F22C5127D0095F7B1 /* LinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedList.swift; sourceTree = "<group>"; };
+		29B6415122C517530095F7B1 /* Node.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
+		29B6415322C519B20095F7B1 /* List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = List.swift; sourceTree = "<group>"; };
+		29B6415722C51C390095F7B1 /* LinkedListTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedListTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +110,7 @@
 		29B6414C22C3DBA20095F7B1 /* Structure */ = {
 			isa = PBXGroup;
 			children = (
+				29B6414E22C5123A0095F7B1 /* LinkedList */,
 				29B6414822C3D7E10095F7B1 /* BoolObject.swift */,
 			);
 			path = Structure;
@@ -111,8 +120,19 @@
 			isa = PBXGroup;
 			children = (
 				29B6414A22C3D8C90095F7B1 /* BoolObjectTest.swift */,
+				29B6415722C51C390095F7B1 /* LinkedListTest.swift */,
 			);
 			path = Structure;
+			sourceTree = "<group>";
+		};
+		29B6414E22C5123A0095F7B1 /* LinkedList */ = {
+			isa = PBXGroup;
+			children = (
+				29B6414F22C5127D0095F7B1 /* LinkedList.swift */,
+				29B6415122C517530095F7B1 /* Node.swift */,
+				29B6415322C519B20095F7B1 /* List.swift */,
+			);
+			path = LinkedList;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -217,8 +237,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				29B6412B22C3D7AB0095F7B1 /* ViewController.swift in Sources */,
+				29B6415222C517530095F7B1 /* Node.swift in Sources */,
 				29B6414922C3D7E10095F7B1 /* BoolObject.swift in Sources */,
+				29B6415022C5127D0095F7B1 /* LinkedList.swift in Sources */,
 				29B6412922C3D7AB0095F7B1 /* AppDelegate.swift in Sources */,
+				29B6415422C519B20095F7B1 /* List.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -226,6 +249,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29B6415822C51C390095F7B1 /* LinkedListTest.swift in Sources */,
 				29B6414B22C3D8C90095F7B1 /* BoolObjectTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
